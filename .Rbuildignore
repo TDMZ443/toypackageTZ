@@ -3,3 +3,7 @@
 ^project\.Rcheck$
 ^project.*\.tar\.gz$
 ^project.*\.tgz$
+^toypackageTZ\.Rcheck$
+^toypackageTZ.*\.tar\.gz$
+^toypackageTZ.*\.tgz$
+^LICENSE\.md$
