@@ -2,16 +2,21 @@
 % Please edit documentation in R/theme_academic.R
 \name{theme_academic}
 \alias{theme_academic}
-\title{Sets theme of your ggplot2 plot to an academic acceptable theme}
+\title{Academic theme in addition to default ggplot2 theme}
 \usage{
 theme_academic(base_size = 12)
 }
 \arguments{
-\item{base_size}{Desired font size, default is 12}
+\item{base_size}{A positive integer}
 }
 \value{
-A plot with the adjusted theme elements
+A plot with the the theme added when passed with ggplot2 (centralized plot title, grid lines removed)
 }
 \description{
-Sets theme of your ggplot2 plot to an academic acceptable theme
+Academic theme in addition to default ggplot2 theme
+}
+\examples{
+library(ggplot2)
+p <- ggplot(data = mtcars) + geom_point(aes(x = mpg, y = hp)) + labs(title = 'plot_title')
+p + theme_academic()
 }
