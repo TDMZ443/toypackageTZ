@@ -8,3 +8,4 @@
 ^toypackageTZ.*\.tgz$
 ^LICENSE\.md$
 ^data-raw$
+^README\.Rmd$
