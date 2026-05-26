@@ -8,3 +8,6 @@ project*.tgz
 toypackageTZ.Rcheck/
 toypackageTZ*.tar.gz
 toypackageTZ*.tgz
+inst/doc
+/doc/
+/Meta/
